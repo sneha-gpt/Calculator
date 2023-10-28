@@ -1,0 +1,35 @@
+.heading{
+    text-align: center;
+}
+ 
+.input{
+    width: 150px;
+    border-radius: 3px;
+    border-color: black;
+    height: 30px;
+    margin: 10px;
+    border-width: 3px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin: 3px;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 3px;
+    width: 35px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: rgb(105, 143, 143);
+}
+.special_button{
+    border-width: 3px;
+    margin: 2px;
+    border-color: black;
+    border-radius: 5px;
+    width: 70px;
+    cursor: pointer;
+    background-color: rgb(105, 143, 143);
+}

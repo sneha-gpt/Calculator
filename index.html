@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="https://help.apple.com/assets/64067987823C71654C27CD1A/64067990823C71654C27CD47/en_US/e726abd62a7d08749d3a882889cdc78d.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <script src = "script.js"></script>
+    <h1 class="heading">Welcome to Calculator!!</h1>
+    <div class="container">
+        
+        <div class="row">
+            <input type="text" class="input" id="display" readonly>
+        </div>
+        <div class="row">
+          <button class="button" onclick="clearDisplay()">AC</button>
+          <button class="button" onclick="addToDisplay('+')">+/-</button>
+          <button class="button" onclick="addToDisplay('%')">%</button>
+          <button class="button" onclick="addToDisplay('/')">/</button>
+        </div>
+        <div class="row">
+           <button class="button" onclick="addToDisplay('7')">7</button>
+           <button class="button" onclick="addToDisplay('8')">8</button>
+           <button class="button" onclick="addToDisplay('9')">9</button>
+           <button class="button" onclick="addToDisplay('*')">*</button>
+        </div>
+
+        <div class="row">
+            <button class="button" onclick="addToDisplay('4')">4</button>
+            <button class="button" onclick="addToDisplay('5')">5</button>
+            <button class="button" onclick="addToDisplay('6')">6</button>
+            <button class="button" onclick="addToDisplay('-')">-</button>
+        </div>
+
+        <div class="row">
+            <button class="button" onclick="addToDisplay('1')">1</button>
+            <button class="button" onclick="addToDisplay('2')">2</button>
+            <button class="button" onclick="addToDisplay('3')">3</button>
+            <button class="button" onclick="addToDisplay('+')">+</button>
+
+        </div>
+        <div class="row">
+            <button class="special_button" onclick="addToDisplay('0')">0</button>
+            <button class="button" onclick="addToDisplay('.')">.</button>
+            <button class="button" onclick="calculate()">=</button>
+        </div>
+    </div>
+    
+</body>
+</html>
